@@ -44,7 +44,7 @@ public class WeatherController {
     private static final String USER_AGENT = "Mozilla/5.0";
     
     
-
+    
     @RequestMapping(method = RequestMethod.GET, value = "/{city}",produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<?> recursoGetAllCinemas(@PathVariable String city){
         Object jo = null;
@@ -64,8 +64,6 @@ public class WeatherController {
                 StringBuffer response = new StringBuffer();
 
             while ((inputLine = in.readLine()) != null) {
-                System.out.println(inputLine);
-                System.out.println("////////////////////");
                 response.append(inputLine);
             }
             in.close();
@@ -73,12 +71,7 @@ public class WeatherController {
             JSONParser parser = new JSONParser(response.toString());
             
             jo = parser.parse();
-            }
-
-
-            //System.out.println(jo.getString("weather"));
-	    
-	        //obtener datos que se enviarán a través del API
+            }            
 	    	
 			return new ResponseEntity<>(jo,HttpStatus.ACCEPTED);
 	    } catch (Exception ex) {
