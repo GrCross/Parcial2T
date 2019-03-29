@@ -44,7 +44,11 @@ public class WeatherController {
     private static final String USER_AGENT = "Mozilla/5.0";
     
     
-    
+    /**
+     * Controlador peticiones GET
+     * @param city
+     * @return
+     */
     @RequestMapping(method = RequestMethod.GET, value = "/{city}",produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<?> recursoGetAllCinemas(@PathVariable String city){
         Object jo = null;
