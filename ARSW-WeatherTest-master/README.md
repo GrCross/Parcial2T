@@ -52,6 +52,10 @@ La arquitectura debe tener las siguientes características.
     * Identifica la función de componentes individuales demuestra conocimiento del funcionamiento general de la arquitectura.
     
 
+### gitHub repository
+https://github.com/GrCross/Rosales-ARSW-T2.git
+### heroku deploy
+https://parcial2weather.herokuapp.com/
 
 
 #nota esperada
