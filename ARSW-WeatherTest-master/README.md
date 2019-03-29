@@ -51,6 +51,13 @@ La arquitectura debe tener las siguientes características.
     * Javadoc publicado
     * Identifica la función de componentes individuales demuestra conocimiento del funcionamiento general de la arquitectura.
     
+
+
+
+#nota esperada
+#3.5
+
+
 ## Ayuda
 
 * Inicie con la aplicación web basada en spring que le propone Heroku en su guía inicial para java. (https://devcenter.heroku.com/articles/getting-started-with-java)
