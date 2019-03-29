@@ -57,6 +57,12 @@ https://github.com/GrCross/Rosales-ARSW-T2.git
 ### heroku deploy
 https://parcial2weather.herokuapp.com/
 
+### Ejecutar el programa local mente
+Peticiones get json
+http://localhost:8080/weather/{ciudad}
+### Ejecutar el programa local mente
+index.html
+http://localhost:8080
 
 #nota esperada
 #3.5
